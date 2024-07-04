@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  position: absolute;
+  background-color:rgb(189, 217, 218);
+  width: 434px;
+  font-family: "Fira Sans Condensed", sans-serif;
+  height: 100vh;
+  transition: transform 0.3s ease-in;
+}
+.sidebar nav {
+  padding: 34px;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 30px;
+  padding: 33px 0;
+}
+.main {
+  /* background-color: yellowgreen; */
+  width: 90vw;
+
+}
+.container {
+  display: flex;
+}
+.infoContainer {
+  /* background-color: red; */
+  height: 58vh;
+  width: 80vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.devPic img {
+  width: 381px;
+  height: 58vh;
+}
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Source Code Pro", monospace;
+  font: size 16px;
+}
+.hello {
+  font-size: 65px;
+}
+.name {
+  font-size: 3em;
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+.about {
+  font-size:2.5em;
+}
+.moreabout {
+  font-size: 2.2em;
+  margin-top: 23px;
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+.buttons {
+  margin-top: 34px;
+  font-size: 16px;
+}
+.btn {
+  padding: 9px 14px;
+  border-radius: 22px;
+  color: whitesmoke;
+  background-color: dodgerblue;
+  font-weight: bold;
+  font-size: 2em;
+  margin: 3px 3px;
+  cursor: pointer;
+}
+.btn-sn {
+  font-size: 14px;
+  padding: 10px 19px;
+  margin: 12px 0;
+}
+.btn:hover {
+  color: orange;
+  background-color: cadetblue;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+.contactForm {
+  padding: 0 34px;
+  margin:  88px;
+ 
+margin: 10px 88px;
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+.contactForm h1 {
+  font-family: "Ga Maamli", sans-serif;
+  /* padding: 12px; */
+}
+.contactForm form div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+.contactForm form {
+  margin:0 40px;
+}
+.blogContainer{
+  margin: 10px 88px;
+}
+#emailHelp {
+  font-size: 11px;
+  color: midnightblue;
+  margin: 0 5px;
+  padding: 3px 0 0 0;
+}
+.contactForm form div input {
+  /* width: 26vw; */
+  border-radius: 5px;
+  margin: 6px 0 0 0;
+  padding: 3px;
+}
+
+#form-check {
+  flex-direction: row;
+}
+
+#form-check input {
+  width: 24px;
+  margin: 3px 0;
+}
+.blogItem {
+  margin: 18px;
+}
+
+h1 {
+  font-family: "Ga Maamli", sans-serif;
+  margin: 18px;
+}
+h2 {
+  font-family: "Ga Maamli", sans-serif;
+  margin: 15px;
+}
+p {
+  font-family: "Playwrite DE Grund", cursive;
+  margin: 15px;
+}
+.intro{
+  margin: 10px 88px;
+}
+
+.intro h1 {
+  font-family: "Ga Maamli", sans-serif;
+  margin: 12px;
+}
+.intro h2 {
+  font-family: "Ga Maamli", sans-serif;
+  margin: 12px;
+}
+.intro p {
+  font-family: "Playwrite DE Grund", cursive;
+  margin: 12px;
+}
+.skillContainer{
+  padding: 12px;
+}
+.skill {
+  width:265px ;
+  height:6px ;
+  background-color:rgb(54, 6, 54);
+  border: 2px solid black;
+}
+.skillItem{
+  display: flex;
+  align-items: center;
+ font-family: "Margarine", sans-serif;
+}
+.hundread{
+  width: 265px;
+  background-color: green;
+}
+.sevenfifty{
+  width: 165px;
+  background-color: orange;
+}
+.fifty{
+  width: 125px;
+  background-color: orange;
+}
+
+.t5{
+  width: 75px;
+  background-color: yellow;
+}
+.Projects{
+  font-weight: bolder;
+  padding:1px 20px;
+  font-size: 15px;
+  font-family: "Margarine", sans-serif;
+}
+.hamburger{
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+.ham{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.cross{
+  margin-left: 380px;
+  margin-top: 10px;
+}
+.sidebargo{
+  transform: translate(-443px,0);
+  position: absolute;
+}
+@media (max-width :165px) {
+ .devPic{
+  display: none;
+ }
+ .devInfo{
+  font-size: 10px;
+ }
+ .buttons{
+  font-size: 6px;
+ }
+  /* .sidebar{
+    transform: translate(-443px,0);
+    position: absolute;
+  } */
+}
+.intro,.blogContainer,.contactForm{
+  margin: 50px 8px;
+}
